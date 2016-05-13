@@ -1,0 +1,50 @@
+/* 
+    Document   : panels.css
+    Created on : Feb 20, 2011, 4:08:19 PM
+    Author     : VINAY KUMAR
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+div.createpanel,p.createflip
+{
+    position: absolute;
+    top:8%;
+    width: 76%;
+    left: 12%;
+margin:0px;
+padding:5px;
+text-align:center;
+background:#e5eecc;
+border:solid 1px #c3c3c3;
+z-index: 1;
+}
+div.createpanel
+{
+height:100%;
+display:none;
+}
+
+div.compilepanel,p.compileflip
+{
+    position: absolute;
+    top:14%;
+    width: 76%;
+    left: 12%;
+margin:0px;
+padding:5px;
+text-align:center;
+background:#e5eecc;
+border:solid 1px #c3c3c3;
+z-index: 0;
+}
+div.compilepanel
+{
+height:60%;
+display:none;
+}

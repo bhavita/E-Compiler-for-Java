@@ -1,0 +1,136 @@
+/* 
+    Document   : menu
+    Created on : Feb 20, 2011, 2:51:08 PM
+    Author     : VINAY KUMAR
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body{  
+    font-family:"Lucida Grande", arial, sans-serif;  
+    background:url("back new1.jpg");  
+}  
+.header
+			{
+                                top:1.5%;
+				color:white;
+				font-size:70px;
+				position:absolute;
+				left:5%;
+			}
+    .cap
+			{
+				color:white;
+				position:absolute;
+				left:33%;
+				top:11%;
+			}
+        
+    .user
+    {
+        color:white;
+    }
+                        
+   .subback
+   {
+       width:78%;
+       height:100%;
+       position: absolute;
+       background-color: #9b3b81;
+       top: 24%;
+       left:8%;
+       border:1px solid #FFFFFF;
+       padding:2%;
+   }
+ #menu
+ {
+    position: absolute;
+    top:14%;
+    left: 5%;
+    z-index: 2;
+    
+ }
+ul{  
+    margin:0;  
+    padding:0; 
+    list-style-type: none;
+    
+}  
+  
+li{  
+    width:13%;  
+    height:50px;  
+    float:left;  
+    color:#191919;  
+    text-align:center;  
+    overflow:hidden;  
+    border:1px solid #FFFFFF;
+    
+}  
+  
+a{  
+    color:#FFF;  
+    font-weight: bold;
+    text-decoration:none;  
+}  
+  
+
+                        
+p{  
+    padding:0px 5px;  
+}  
+  
+    .subtext{  
+        padding-top:15px;  
+        color:white;
+    }  
+  
+/*Menu Color Classes*/  
+.green{background:#6AA63B;}  
+.yellow{background:#FBC700;}  
+.red{background:#D52100;}  
+.purple{background:#9b3b81;}  
+.blue{background:#0292C0;} 
+
+.login
+			{
+				position:absolute;
+				top:24%;
+				left:78%;
+				background:#9b3b81;
+				padding:2%;
+				width:16%;
+				border:1px solid #FFFFFF;
+			}
+			a.indexpage
+			{
+				color:white;
+				text-decoration:none;
+				padding:1%;	
+			}
+			.content
+			{
+				position:absolute;
+				top:24%;
+				left:4%;
+				background:#e5eecc;
+				width:69%;
+				padding:2%;
+				border:1px solid #FFFFFF;
+                                z-index: 1;
+			}
+			
+       .loginfo
+       {
+                                color:white;
+				position:absolute;
+                                text-align:center;
+				left:40%;
+				top:10%; 
+       }
+     

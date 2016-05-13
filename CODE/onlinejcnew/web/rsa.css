@@ -1,0 +1,165 @@
+/* 
+    Document   : rsa
+    Created on : Feb 20, 2011, 4:28:47 PM
+    Author     : VINAY KUMAR
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.encrypt
+                {
+                    position: absolute;
+                    top:10%;
+                    left:25%;
+                    width:50%;
+                    height: 7%;
+                    background: #e5eecc;    
+                    font-size: 25pt;
+                    color:black;
+                    text-align: center;
+                    border:1px solid #FFFFFF;
+                }
+                .generate
+                {
+                    position: absolute;
+                    top:21%;
+                    left:24%;
+                    width:50%;
+                    text-align: center;
+                    background: #e5eecc;
+                    padding: 1%;
+                    border:1px solid #FFFFFF;   
+                }
+                .keys
+                {
+                    position: absolute;
+                    top:60%;
+                    left: 24%;
+                    width:50%;
+                    text-align: center;
+                    background: #e5eecc;
+                    padding:1%;
+                    border:1px solid #FFFFFF;
+                }
+                th
+                {
+                    text-align: left;
+                }
+
+           .decrypt
+                {
+                    position: absolute;
+                    top:5%;
+                    left:25%;
+                    width:50%;
+                    background: #e5eecc;    
+                    font-size: 25pt;
+                    color:black;
+                    text-align: center;
+                    border:1px solid #FFFFFF;
+                }
+                .decryptfile
+                {
+                    position: absolute;
+                    top: 15%;
+                    left: 24%;
+                    width: 50%;
+                    background: #e5eecc;
+                    padding: 1%;
+                    text-align: center;
+                    border:1px solid #FFFFFF;
+                }
+                
+                
+                .apihead
+                {
+                    position: absolute;
+                    top:5%;
+                    left:25%;
+                    width:50%;
+                    background: #e5eecc;    
+                    font-size: 25pt;
+                    color:black;
+                    text-align: center;
+                    border:1px solid #FFFFFF;
+                }
+                
+                .inhead
+                {
+                    position: absolute;
+                    top:2%;
+                    left:10%;
+                    width:80%;
+                    background: #e5eecc;    
+                   
+                    color:black;
+                    text-align: center;
+                    border:1px solid #FFFFFF;
+                }
+                .content1
+                {
+                    position: absolute;
+                    top:14%;
+                    left:24%;
+                    width:50%;
+                    padding:1%;
+                    background: #e5eecc;    
+                    font-size: 22pt;
+                    color:black;
+                    text-align: center;
+                    border:1px solid #FFFFFF;
+                }
+                
+                .content2
+                {
+                    position: absolute;
+                    top:12%;
+                    left:15%;
+                    width:70%;
+                    padding:1%;
+                    background: #e5eecc;    
+                   
+                    color:black;
+                    text-align: center;
+                    border:1px solid #FFFFFF;
+                }
+                .note
+                {
+                    position:absolute;
+                    top:62%;
+                    left: 24%;
+                    width:50%;
+                    background: #e5eecc;
+                    border:1px solid #FFFFFF;
+                    text-align: center;
+                    padding:1%;
+                }
+                
+                
+                 .help
+                {
+                    position: absolute;
+                    top:24%;
+                    left:25%;
+                    width:50%;
+                    background: #e5eecc;    
+                    font-size: 25pt;
+                    color:black;
+                    text-align: center;
+                    border:1px solid purple;
+                }
+                .faq
+                {
+                    position: absolute;
+                    top:32%;
+                    left:13%;
+                    width:70%;
+                    padding: 1%;
+                    background: #e5eecc;
+                    border:1px solid purple;
+                }
